@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONAMI</title>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/monamiStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+
+    <script src="js/monami.js" defer></script>
+
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="l-popup__buttons">
+            <span><img src="/img/l-popup_img_1.png" alt="모나미몰"></span>
+            <span>브랜드 <em>스토어</em></span>
+            <a class="l-popup-btn-1" href="https://brand.naver.com/monami" target="_blank">
+                <span class="btn_go">바로가기</span>
+            </a>
+            <a class="l-popup-btn-2" href="/customer/inquiry.php?bluk=10" target="_blank">
+                <span class="btn_inquiry">대량 구매 문의</span>
+            </a>
+            <a class="l-popup__button--close" onclick="jQuery(this).parent().hide(); return false;" href="#">예약하기 버튼
+                닫기</a>
+        </div>
+        <div id="header">
+            <div class="head">
+                <div class="head_top">
+                    <div class="conwrap">
+                        <div class="links">
+                            <div class="lang">
+                                <div class="this_lang"><a href="#">KOR</a></div>
+                                <ul>
+                                    <li><a href="/en">ENG</a></li>
+                                </ul>
+                            </div>
+                            <div class="sns">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/monami1960" target="_blank">
+                                            <img src="img/sns_facebook.gif" alt="모나미 페이스북 바로가기">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/monami_official/" target="_blank">
+                                            <img src="img/sns_insta.gif" alt="모나미 인스타 바로가기">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UC7lJDw-5bYXnAGNHh1uUG3A"
+                                            target="_blank">
+                                            <img src="img/sns_youtube.png" alt="모나미 유튜브 바로가기">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="top_menu">
+                            <ul>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">SITE MAP</a></li>
+                                <li><a href="#">CONTACT US</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="gnb">
+                    <div class="conwrap2">
+                        <h1><a href="index.html"><img src="img/logo.jpg" alt="모나미 로고"></a></h1>
+                        <nav class="nav">
+                            <ul>
+                                <li>
+                                    <a href="info.html">모나미소개</a>
+                                    <ul>
+                                        <li><a href="info.html">CEO 메세지</a></li>
+                                        <li><a href="#">회사정보</a></li>
+                                        <li><a href="#">회사연혁</a></li>
+                                        <li><a href="#">윤리강령</a></li>
+                                        <li><a href="#">투자정보</a></li>
+                                        <li><a href="#">CI</a></li>
+                                        <li><a href="#">찾아오시는 길</a></li>
+                                        <li><a href="#">안전보건 경영방침</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">모나미제품</a>
+                                    <ul>
+                                        <li><a href="#">프리미엄 펜</a></li>
+                                        <li><a href="#">펜&middot;펜슬</a></li>
+                                        <li><a href="#">마카&middot;컬러링</a></li>
+                                        <li><a href="#">노트&middot;사무용품</a></li>
+                                        <li><a href="#">잉크&middot;리필</a></li>
+                                        <li><a href="#">카탈로그</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">NEWS & VIDEO</a>
+                                    <ul>
+                                        <li><a href="#">보도자료</a></li>
+                                        <li><a href="#">동영상자료</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">모나미 미술대회</a>
+                                    <ul>
+                                        <li><a href="#">미술대회 소개</a></li>
+                                        <li><a href="#">수상작 발표</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">고객지원</a>
+                                    <ul>
+                                        <li><a href="#">자주묻는질문</a></li>
+                                        <li><a href="#">문의하기</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">기업 구매 / 개발</a>
+                                    <ul>
+                                        <li><a href="#">대량 구매 문의</a></li>
+                                        <li><a href="#">기업 및 단체 구매</a></li>
+                                        <li><a href="#">산업용 맞춤 제품개발</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="search">
+                            <div class="btn_all">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <div class="nav_search">
+                                <input type="text">
+                                <a href="#"><img src="img/imgi_7_btn_search.gif" alt="검색하기"></a>
+                            </div>
+                        </div>
+                        <div class="allmenu">
+                            <div class="allmenu_in">
+                                <div class="menubox">
+                                    <h2>모나미소개</h2>
+                                    <ul>
+                                        <li><a href="#">CEO 메시지</a></li>
+                                        <li><a href="#">회사정보</a></li>
+                                        <li><a href="#">회사연혁</a></li>
+                                        <li><a href="#">윤리강령</a></li>
+                                        <li><a href="#">투자정보</a></li>
+                                        <li><a href="#">CI</a></li>
+                                        <li><a href="#">찾아오시는 길</a></li>
+                                        <li><a href="#">안전보건 경영방침</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menubox">
+                                    <h2>모나미제품</h2>
+                                    <ul>
+                                        <li><a href="#">프리미엄 펜</a></li>
+                                        <li><a href="#">펜&middot;펜슬</a></li>
+                                        <li><a href="#">마카&middot;컬러링</a></li>
+                                        <li><a href="#">노트&middot;사무용품</a></li>
+                                        <li><a href="#">잉크&middot;리필</a></li>
+                                        <li><a href="#">카탈로그</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menubox">
+                                    <h2>NEWS & VIDEO</h2>
+                                    <ul>
+                                        <li><a href="#">보도자료</a></li>
+                                        <li><a href="#">동영상자료</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menubox">
+                                    <h2>모나미 미술대회</h2>
+                                    <ul>
+                                        <li><a href="#">미술대회 소개</a></li>
+                                        <li><a href="#">수상작 발표</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menubox">
+                                    <h2>고객지원</h2>
+                                    <ul>
+                                        <li><a href="#">자주묻는질문</a></li>
+                                        <li><a href="#">문의하기</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menubox">
+                                    <h2>기업 구매 / 개발</h2>
+                                    <ul>
+                                        <li><a href="#">대량 구매 문의</a></li>
+                                        <li><a href="#">기업 및 단체 구매</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="visual">
+            <div class="textarea">
+                <h3>
+                    어쩌면 삶은<br>
+                    인생이라는 종이 위에<br>
+                    써 내려가는<br>
+                    펜의 기록 같습니다.<br>
+                </h3>
+                <p>
+                    그중에서도 지우고 싶지 않은 기록이 있습니다.<br>
+                    모나미는 언제나 당신의 행복한 기록과 함께 합니다.
+                </p>
+            </div>
+        </div>
+        <div id="container">
+            <div id="contents">
+                <div class="new">
+                    <div class="conwrap">
+                        <div class="tit">
+                            <h2>NEW <br>ARRIVALS</h2>
+                            <p>가장 먼저 만나는 설레는 기다림</p>
+                        </div>
+                        <div class="toparea">
+                            <div class="box new1">
+                                <a href="http://www.monami.com/product/product_view.php?ccode=005002&amp;idx=188">
+                                    <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/main/file1_1699945409grwui60w6u.jpg"
+                                        alt="" width="392" height="205">
+                                    <div class="ondiv">
+                                        <div class="align">
+                                            <span class="cate">PEN</span>
+                                            <span class="name">FX ZETA C3</span>
+                                            <div class="plus">
+                                                <div></div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="box new2">
+                                <a href="http://www.monami.com/product/product_view.php?ccode=001005&amp;idx=186">
+                                    <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/main/file1_169994521784nzg4whv7.jpg"
+                                        alt="" width="786" height="360">
+                                    <div class="ondiv">
+                                        <div class="align">
+                                            <span class="cate">NOTE</span>
+                                            <span class="name">지퀀스</span>
+                                            <div class="plus">
+                                                <div></div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="btmarea">
+                            <div class="box new3">
+                                <a href="http://www.monami.com/product/product_view.php?ccode=005&amp;idx=248">
+                                    <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/main/file1_1715318030bhfwnjum09.jpg"
+                                        alt="" width="392" height="292">
+                                    <div class="ondiv">
+                                        <div class="align">
+                                            <span class="cate">PREMIUM PEN</span>
+                                            <span class="name">프러스펜3000프라임</span>
+                                            <div class="plus">
+                                                <div></div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="box new4">
+                                <a href="http://www.monami.com/product/product_view.php?ccode=005&amp;idx=204">
+                                    <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/main/file1_1681087061mb8i5l6zdx.jpg"
+                                        alt="" width="450" height="439">
+                                    <div class="ondiv">
+                                        <div class="align">
+                                            <span class="cate">FOUNTAIN PEN</span>
+                                            <span class="name">153 아이디 만년필</span>
+                                            <div class="plus">
+                                                <div></div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="box new5">
+                                <a href="http://www.monami.com/product/product_view.php?ccode=003&amp;idx=168">
+                                    <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/main/file1_1715319042z7nuju2l3p.jpg"
+                                        alt="" width="314" height="292">
+                                    <div class="ondiv">
+                                        <div class="align">
+                                            <span class="cate">WATER-BASED MARKER</span>
+                                            <span class="name">프러스펜 3000</span>
+                                            <div class="plus">
+                                                <div></div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" id="product">
+                    <h2 class="tit">BEST PRODUCT</h2>
+                    <p class="tit-btm">
+                        언제 어디서나 생활 속에 함께하는 모나미
+                    </p>
+                    <div class="p_tabs">
+                        <ul>
+                            <li class="on"><a href="">프리미엄 펜</a></li>
+                            <li><a href="">펜&middot;펜슬</a></li>
+                            <li><a href="">마카&middot;컬러링</a></li>
+                            <li><a href="">노트&middot;사무용품</a></li>
+                        </ul>
+                    </div>
+                    <div class="p_lists on swiper swiper-archive">
+                        <ul class="swiper-wrapper" style="width: 3124px;">
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2040136001_file6_1713138750ujw6qaj97g.jpg"
+                                            alt="프러스펜 3000 프라임">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">프리미엄펜</div>
+                                        <div class="name">프러스펜 3000 프라임</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/8801067962537_file6_16993368522ze8t9y6ul.jpg"
+                                            alt="153 리스펙트 리파인">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">프리미엄펜</div>
+                                        <div class="name">153 리스펙트 리파인</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2040048020_file6_1681086837wink3y4zfr.jpg"
+                                            alt="153 아이디 만년필">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">만년필</div>
+                                        <div class="name">153 아이디 만년필</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2040048012_file6_1583298386d4wy0fw22t.jpg"
+                                            alt="154 네오 만년필 EF">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">만년필</div>
+                                        <div class="name">154 네오 만년필 EF</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2010209001_file6_15106474920b1lr1fhnf.jpg"
+                                            alt="153 블랙 & 화이트">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">프리미엄펜</div>
+                                        <div class="name">153 블랙 & 화이트</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/0file6_15106488276b3copnqua.jpg"
+                                            alt="153 골드">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">프리미엄펜</div>
+                                        <div class="name">153 골드</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2010204001_file6_1510645904wfwu2dzbh8.jpg"
+                                            alt="153 아이디">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">프리미엄펜</div>
+                                        <div class="name">153 아이디</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/ 2040012000_file6_1581983504aiqk5l95cs.jpg"
+                                            alt="60주년 프러스펜 3000 데스크펜 스페셜 에디션">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">프리미엄펜</div>
+                                        <div class="name">60주년 프러스펜 3000 데스크펜 스페셜 에디션</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2100013001_file6_1510646729quxjpnwxv2.jpg"
+                                            alt="153 아이디 샤프">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">고급샤프</div>
+                                        <div class="name">153 아이디 샤프</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2010207001_file6_15106464990pucf68uao.jpg"
+                                            alt="153 네오">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">프리미엄펜</div>
+                                        <div class="name">153 네오</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2010205004_file6_15106462368v88izo2ui.jpg"
+                                            alt="153 리스펙트">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">프리미엄펜</div>
+                                        <div class="name">153 리스펙트</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p_lists swiper swiper-archive">
+                        <ul class="swiper-wrapper" style="width: 3124px;">
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2100011114_file6_1680482799v8lz6c19ev.jpg"
+                                            alt="그리픽스 팝 샤프">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">샤프/샤프심</div>
+                                        <div class="name">그리픽스 팝 샤프</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2040001255_file6_1649204802j4iszv1mjt.jpg"
+                                            alt="사이펜 슈퍼 파스텔 12색">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">수성마카</div>
+                                        <div class="name">사이펜 슈퍼 파스텔 12색</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2040240006_file6_16255408900kpz876plz.jpg"
+                                            alt="프러스펜 3000 피그먼트">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">수성마카</div>
+                                        <div class="name">프러스펜 3000 피그먼트</div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2040016351_file6_16334947342g3aqx0uh1.jpg"
+                                            alt="라이브 칼라(화이트 축)">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">수성마카</div>
+                                        <div class="name">153 블랙 & 화이트</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2010152034_file6_1699945497e4wvhszoxy.jpg"
+                                            alt="FX ZETA C3">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">유성볼펜</div>
+                                        <div class="name">FX ZETA C3</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2010030001_file6_1635127393stijdjvr99.jpg"
+                                            alt="제니스7">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">유성볼펜</div>
+                                        <div class="name">제니스7</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2041019049_file6_1659673523b6tw8za4y1.jpg"
+                                            alt="프러스펜 3000 60색 세트">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">수성마카</div>
+                                        <div class="name">프러스펜 3000 60색 세트</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/8801067279536_file6_1552954140c5bul606gc.jpg"
+                                            alt="FX 153">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">FX 153</div>
+                                        <div class="name">FX 153</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2010129001_file6_1584059663fxku9xz5t3.jpg"
+                                            alt="FX ZETA">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">고급샤프</div>
+                                        <div class="name">153 아이디 샤프</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2060064323_file6_1636340558w5g3jvb5ke.jpg"
+                                            alt="에센티 트윈">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">형광펜</div>
+                                        <div class="name">에센티 트윈</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2160005028_file6_1663205066lv1sw90t9i.jpg"
+                                            alt="NEW 바우하우스 연필">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">연필</div>
+                                        <div class="name">NEW 바우하우스 연필</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2100003305_file6_16292623945as0fnfi0z.jpg"
+                                            alt="클리키">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">샤프/샤프심</div>
+                                        <div class="name">클리키</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2010132410_file6_15790764605c7doj31ui.jpg"
+                                            alt="NEW 바우하우스 연필">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">유성볼펜</div>
+                                        <div class="name">BP 153</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2170001305_file6_1523248115uka6e37m7v.jpg"
+                                            alt="연필_모니주(오렌지/핑크/퍼플)">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">연필</div>
+                                        <div class="name">연필_모니주(오렌지/핑크/퍼플)</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2170001306_file6_152324802572hr796g86.jpg"
+                                            alt="연필_모니주(그린/블루)">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">연필</div>
+                                        <div class="name">연필_모니주(그린/블루)</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2170001323_file6_1523247404kca985sswv.jpg"
+                                            alt="NEW 바우하우스 연필">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">사인펜</div>
+                                        <div class="name">모니주 사인펜(핑크/블루)</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2040016001_file6_1510666502k9r1vd5yqm.jpg"
+                                            alt="라이브 칼라 DIY">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">수성마카</div>
+                                        <div class="name">라이브 칼라 DIY</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2040038001_file6_15106651751ln83qs873.jpg"
+                                            alt="프러스펜 S / 리필심">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">수성마카</div>
+                                        <div class="name">프러스펜 S / 리필심</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2040003711_file6_1662537642f4wn84wf9f.jpg"
+                                            alt="프러스펜 3000">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">수성마카</div>
+                                        <div class="name">프러스펜 3000</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2040036001_file6_15106646665s12s79w80.jpg"
+                                            alt="어데나">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">수성마카</div>
+                                        <div class="name">어데나</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p_lists swiper swiper-archive">
+                        <ul class="swiper-wrapper" style="width: 3124px;">
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2040002001_file6_15867537131mu8wvyj4p.jpg"
+                                            alt="워터 리얼 브러쉬">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">워터브러쉬</div>
+                                        <div class="name">워터 리얼 브러쉬</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2040005001_file6_1585872127mz32ryzzpt.jpg"
+                                            alt="컬러 리얼 브러쉬">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">수성마카</div>
+                                        <div class="name">컬러 리얼 브러쉬</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2040009001_file6_1552521391bpvzh1xb2b.jpg"
+                                            alt="크레파스_모니주(블루)">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">수성마카</div>
+                                        <div class="name">붓펜 12색 세트</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2170001334_file6_1523248839zec883ldj9.jpg"
+                                            alt="크레파스_모니주(옐로우)">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">크레파스</div>
+                                        <div class="name">크레파스_모니주(옐로우)</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2170001335_file6_1523248634tsel5la94n.jpg"
+                                            alt="크레파스_모니주(핑크)">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">크레파스</div>
+                                        <div class="name">크레파스_모니주(핑크)</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2170001336_file6_152324853466hf5gfimx.jpg"
+                                            alt="크레파스_모니주(블루)">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">크레파스</div>
+                                        <div class="name">크레파스_모니주(블루)</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2170001301_file6_1523248406vbaq8g2od3.jpg"
+                                            alt="종이말이 색연필_모니주(블루/핑크)">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">색연필</div>
+                                        <div class="name">종이말이 색연필_모니주(블루/핑크)</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2170001320_file6_1523247762qj1v86clpg.jpg"
+                                            alt="샤프식 색연필_모니주(블루/핑크)">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">샤프식 색연필</div>
+                                        <div class="name">샤프식 색연필_모니주(블루/핑크)</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2170001315_file6_1523247231qfilsm5mlv.jpg"
+                                            alt="그림물감_모니주(핑크)">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">그림물감</div>
+                                        <div class="name">그림물감_모니주(핑크)</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2170001316_file6_1523247076ikq72ezudi.jpg"
+                                            alt="153 리스펙트 리파인">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">그림물감</div>
+                                        <div class="name">그림물감_모니주(블루)</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2080016001_file6_16643427030pyhbwjv64.jpg"
+                                            alt="세라믹 마카 480 / 482">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">생활마카</div>
+                                        <div class="name">세라믹 마카 480 / 482</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2080154201_file6_1510710286w4nihpjbrq.jpg"
+                                            alt="데코마카 463">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">생활마카</div>
+                                        <div class="name">데코마카 463</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2080154101_file6_15106632004516xft8i0.jpg"
+                                            alt="데코마카 460">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">생활마카</div>
+                                        <div class="name">데코마카 460</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/0file6_15106488276b3copnqua.jpg"
+                                            alt="153 골드">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">프리미엄펜</div>
+                                        <div class="name">153 골드</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2040004209_file6_1613459027y841zsfk12.jpg"
+                                            alt="붓펜">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">수성마카</div>
+                                        <div class="name">붓펜</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2080151026_file6_151066220247q1cybrkr.jpg"
+                                            alt="키친마카 420">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">생활마카</div>
+                                        <div class="name">키친마카 420</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2080127023_file6_1510662121iusi4x91pj.jpg"
+                                            alt="프로 페인트마카">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">산업마카</div>
+                                        <div class="name">프로 페인트마카</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2080151013_file6_1510662071j9r8dtqlo6.jpg"
+                                            alt="시그마플로 생잉크 보드마카 220 / 221">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">보드마카</div>
+                                        <div class="name">시그마플로 생잉크 보드마카 220 / 221</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2080151027_file6_15106620222v2zoksyg6.jpg"
+                                            alt="가든마카 450">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">생활마카</div>
+                                        <div class="name">가든마카 450</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p_lists swiper swiper-archive">
+                        <ul class="swiper-wrapper" style="width: 3124px;">
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2120014201_file6_1711340757johyd13i1d.jpg"
+                                            alt="지퀀스 노트 The Color A5">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">노트</div>
+                                        <div class="name">지퀀스 노트 The Color A5</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2172018015_file6_15704371548jbp9f11m5.jpg"
+                                            alt="다목적으로 사용 가능한 목공풀">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">풀</div>
+                                        <div class="name">다목적으로 사용 가능한 목공풀</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2172018017_file6_1570436926c8ouqp5opo.jpg"
+                                            alt="다목적으로 사용 가능한 목공풀 2-Way">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">풀</div>
+                                        <div class="name">다목적으로 사용 가능한 목공풀 2-Way</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2172018013_file6_1570436889l87efqci2x.jpg"
+                                            alt="빨리 마르는 물풀">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">풀</div>
+                                        <div class="name">빨리 마르는 물풀</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2172018011_file6_1570436859fjhnr74sr9.jpg"
+                                            alt="붙였다 뗄 수 있는 메모 풀">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">풀</div>
+                                        <div class="name">붙였다 뗄 수 있는 메모 풀</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2172018005_file6_1570436803n3uw1ntrmc.jpg"
+                                            alt="모서리에 바르기 쉬운 삼각풀">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">풀</div>
+                                        <div class="name">모서리에 바르기 쉬운 삼각풀</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <div class="thum">
+                                        <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/product/2172018001_file6_15704366777ti79ttd74.jpg"
+                                            alt="한 번에 잘 발리는 부드러운 풀">
+                                    </div>
+                                    <div class="info">
+                                        <div class="cate">풀</div>
+                                        <div class="name">한 번에 잘 발리는 부드러운 풀</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p_info">
+                        <div class="wrap">
+                            <span class="arr1"><img src="img/imgi_24_p_arr1.gif" alt=""></span>
+                            <span class="arr2"><img src="img/imgi_25_p_arr2.gif" alt=""></span>
+                            <div class="ds">
+                                <div><img src="img/imgi_26_p_cursor.gif" alt=""></div>
+                                DRAG & SCROLL
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="video">
+                    <video loop muted autoplay id="player" class="bgvid">
+                        <source src="https://dfrkkcv2hg1jc.cloudfront.net/data/video/monami_brand_web_60.mp4"
+                            type="video/mp4">
+                        <source src="https://dfrkkcv2hg1jc.cloudfront.net/data/video/monami_brand_web_60.ogv"
+                            type="video/og">
+                    </video>
+                </div>
+                <div class="bbs">
+                    <div class="conwrap">
+                        <div class="news">
+                            <div class="tit">
+                                <h2>MONAMI NEWS</h2>
+                                <a href="#">MORE</a>
+                            </div>
+                            <ul class="news_lists">
+                                <li class="first">
+                                    <div class="thum">
+                                        <a href="#">
+                                            <img src="https://dfrkkcv2hg1jc.cloudfront.net/data/board/bodo/b_file_1757049215mit7z79997.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="txt">
+                                        <a href="#">
+                                            <div class="sbj">모나미, 유성잉크 파이프 팁 기술 돋보이는 ..</div>
+                                            <p>
+                                                모나미, 유성잉크 파이프 팁 기술 돋보이는신제품 FX ZETA PEAK 출시파이프 팁으로 잉크 흐름 끊김 없이 안정적이고 ..
+                                            </p>
+                                            <span class="date">2025-08-20</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        - 쓰는 펜에서 그리는 펜으로… 모나미, 갤러리아와 협업해 드로잉 원..
+                                        <span class="date">2025-07-25</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        - 모나미, 브랜드 서포터즈 ‘펜클럽(Pen Club)’ 8기 모집… “신제품 ..
+                                        <span class="date">2025-07-17</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        - 모나미, 스킨케어 브랜드 '레이어프(LAYER.P)' 와 협업 전시 진행... 모..
+                                        <span class="date">2025-06-25</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="inquiry">
+                            <div class="tit">
+                                <h2>
+                                    INQUIRY
+                                </h2>
+                            </div>
+                            <p>
+                                언제나 소중한 의견에 귀 기울이겠습니다. <br>
+                                궁금한 사항은 문의하세요.
+                            </p>
+                            <a href="#">INQUIRY NOW</a>
+                        </div>
+                        <div class="shop">
+                            <div class="tit">
+                                <h2>모나미 네이버 브랜드스토어</h2>
+                            </div>
+                            <p>
+                                모나미 공식 쇼핑몰입니다. <br>
+                                공식몰만의 다양한 혜택을 만나보세요.
+                            </p>
+                            <a href="#">BUY NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="foot">
+                <div class="foot_top">
+                    <h1><img src="/img/foot_logo.jpg" alt="푸터 모나미 로고"></h1>
+                    <ul class="fm">
+                        <li><a href="#">회사소개</a></li>
+                        <li><a class="privacy_pop">개인정보처리방침</a></li>
+                        <li><a class="email_pop">이메일무단수집거부</a></li>
+                    </ul>
+                </div>
+                <div class="foot_btm">
+                    <div class="info">
+                        <div class="tit">INFO</div>
+                        <address>
+                            ADDRESS : 경기도 용인시 수지구 손곡로 17 <span>l</span>
+                            TEL : 031-216-0153 <span>l</span>
+                            FAX : 031-270-5154
+                        </address>
+                        <p class="copy">COPYRIGHT(C) MONAMI.CO.,LTD. ALL RIGHTS RESERVED.</p>
+                    </div>
+                    <div class="cc">
+                        <div class="tit">CUSTOMER CENTER</div>
+                        <div class="cc_tel">080-022-0153</div>
+                        <a class="btn_kakao">카카오톡 문의</a>
+                    </div>
+                    <div class="fam_site">
+                        <a>FAMILY SITE</a>
+                        <ul>
+                            <li><a href="#">모나미몰</a></li>
+                            <li><a href="#">모나르떼</a></li>
+                            <li><a href="#">모나미 컨셉스토어</a></li>
+                            <li><a href="#">모나미 미술대회</a></li>
+                            <li><a href="#">모나미 기업서비스</a></li>
+                            <li><a href="#">모나미코스메틱</a></li>
+                            <li><a href="#">주식회사 항소</a></li>
+                            <li><a href="#">플라맥스</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
