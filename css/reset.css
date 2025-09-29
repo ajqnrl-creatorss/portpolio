@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6, strong, b{
     font-weight: 500;
 }
 body {
-    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
     color: #555;
     font-size: 13.5px;
 }

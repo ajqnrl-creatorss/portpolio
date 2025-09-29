@@ -56,7 +56,7 @@
     display: block;
     width: 20px;
     height: 20px;
-    background: url(/img/btn_go_arrrow.png) no-repeat 0 0;
+    background: url(../img/btn_go_arrrow.png) no-repeat 0 0;
     background-size: contain;
     position: absolute;
     right: 0;
@@ -97,7 +97,7 @@
     display: block;
     width: 20px;
     height: 20px;
-    background: url(/img/btn_inquiry_icon.png) no-repeat 0 0;
+    background: url(../img/btn_inquiry_icon.png) no-repeat 0 0;
     background-size: contain;
     position: absolute;
     left: 11px;
@@ -109,7 +109,7 @@
     display: block;
     width: 22px;
     height: 22px;
-    background: url(/img/imgi_34_l-popup__button_close.png) no-repeat;
+    background: url(../img/imgi_34_l-popup__button_close.png) no-repeat;
     background-size: contain;
     text-indent: -9999px;
     position: absolute;
@@ -978,7 +978,7 @@
     float: left;
     padding-right: 11px;
     margin-right: 10px;
-    background: url(../img/fm_bar.gif) no-repeat right center;
+    background: url(../img/imgi_45_fm_bar.gif) no-repeat right center;
 }
 
 .foot_top .fm li a {
@@ -1062,7 +1062,7 @@
     width: 9px;
     height: 5px;
     margin: 0 0 2px 5px;
-    background: url(/img/family_arr.png) no-repeat;
+    background: url(../img/family_arr.png) no-repeat;
     background-size: cover;
     transform: rotate(-450deg);
 }
@@ -1098,7 +1098,7 @@
     display: block;
     width: 9px;
     height: 5px;
-    background: url(/img/family_arr.png) no-repeat 95% center;
+    background: url(../img/family_arr.png) no-repeat 95% center;
     background-size: contain;
     position: absolute;
     right: 5%;
